@@ -1,0 +1,854 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Section */
+
+.navbar{
+    padding: 19px 58px 16px 81px;
+}
+.navbar-dark .navbar-brand{
+    margin-right: 262px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* Main Section */
+
+.Main{
+    background-image: url('../images/Dance-academy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 268px;
+    padding-bottom: 83px;
+}
+.Main .container{
+    margin-left: 82px;
+    max-width: 796px;
+}
+.Main .container h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 124.63px;
+    margin-bottom: 38px;
+}
+.Main .container p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 29.72px;
+    margin-bottom: 45px;
+}
+.Main .container button{
+    background-color: #e8631c;
+    border: #e8631c;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 82px 20px 80px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 29.17px;
+    border-radius: 5px;
+    transition: 0.3s;
+    outline: none;
+}
+.Main .container button:hover{
+    background-color: #ffffff;
+    color: #e8631c;
+    border: #ffffff;
+}
+
+/* Dance Tour Section */
+
+.Dance_Tour{
+    background-color: #e8631c;
+    padding-top: 106px;
+    padding-bottom: 100px;
+}
+.Dance_Tour .container h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    margin-bottom: 59px; 
+    text-transform: uppercase;  
+}
+.Dance_Tour .container p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 29.72px;   
+}
+.Dance_Tour .container .row .col .card{
+    border: 0;
+    border-radius: 0;
+}
+.Dance_Tour .container .row .col .card:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+.Dance_Tour .container .row .col .card .card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.Dance_Tour .container .row .col .card .card-body h3{
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 400;
+    font-size: 36.95px;
+    text-transform: uppercase;
+}
+.Dance_Tour .container .row .col .card .card-body p{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    font-size: 22.17px;
+}
+
+/* Pricing Section */
+
+.Pricing{
+    background-color: #303030;
+    padding-top: 108px;
+    padding-bottom: 100px;
+}
+.Pricing .container h2{
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 75px;
+margin-bottom: 59px; 
+text-transform: uppercase;  
+}
+.Pricing .container p{
+font-family: 'Montserrat' , sans-serif;
+font-weight: 400;
+font-size: 29.72px;
+}
+.Pricing .container .row .col-lg-4 .card:hover{
+    transition: all 0.5s ease-out;
+    transform: scale(1.05);
+}
+.Pricing .container .row .col-lg-4 .card .card-img-top{
+width: 112px;
+height: 132px;
+margin: 64px auto 59px auto;
+}
+.Pricing .container .row .col-lg-4 .card .card-body h3{
+font-family: 'Oswald', sans-serif;
+font-weight: 600;
+font-size: 36.95px;
+text-transform: uppercase;
+}
+.Pricing .container .row .col-lg-4 .card .card-body p{
+font-family: 'Montserrat' , sans-serif;
+font-weight: 400;
+font-size: 22.17px;
+}
+.Pricing .container .row .col-lg-4 .card .card-body button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 19px 121px 21px 119px;
+    background-color: #303030;
+    color: #ffffff;
+    border: #303030;
+    border-radius: 5px;
+    transition: 0.3s;
+    outline: none;
+}
+.Pricing .container .row .col-lg-4 .card .card-body button:hover{
+    background-color: #ffffff;
+    color: #303030;
+}
+
+/* Read More Section */
+
+.Read_More .row{
+margin-right: 0;
+margin-left: 0 !important;
+}
+.Read_More .row:first-child{
+    margin-bottom: 10px;
+}
+.Read_More .row .col{
+padding-right: 0;
+padding-left: 0 !important;
+}
+.Read_More .row .col h4{
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 75px;
+text-transform: uppercase;
+}
+.Read_More .row .col p{
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 29.72px;
+}
+.Read_More .row .col button{
+    padding: 18px 103px 22px 101px;
+    text-transform: uppercase;
+    background-color: #303030;
+    color: #ffffff;
+    border: #303030;
+    border-radius: 5px;
+    font-size: 29.17px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+    outline: none;
+}
+.Read_More .row .col button:hover{
+    background-color: #ffffff;
+    color: #303030;
+}
+
+/* Statistics Section */
+
+.Statistics{
+background-color: #303030;
+padding-top: 207px;
+padding-bottom: 262px;
+}
+.Statistics .container h3{
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 75px;
+margin-bottom: 59px;
+text-transform: uppercase;
+}
+.Statistics .container p{
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 29.72px;
+}
+.Statistics .container .row .col h4{
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 66.84px;
+margin-bottom: 35px;
+}
+.Statistics .container .row .col h5{
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 41.67px;
+}
+
+/* HERBERT SIMON Section */
+
+.Herbert_Simon{
+background-image: url('../images/simon.png');
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 338px;
+padding-bottom: 345px;
+}
+.Herbert_Simon .container p{
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+font-size: 50px;
+margin-bottom: 78px;
+}
+.Herbert_Simon .container h5{
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 58.33px;
+}
+.img_overlay{
+position: relative;
+z-index: 1;
+}
+.img_overlay::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #cb5016;
+opacity: 0.5;
+z-index: -1;
+}
+
+/* Subscribe Section */
+
+.Subscribe{
+background-color: #e8631c;
+padding-top: 131px;
+padding-bottom: 161px;
+}
+.Subscribe .container h4{
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 75px;
+margin-bottom: 59px;
+}
+.Subscribe .container p{
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 29.72px;
+}
+.Subscribe .container .form-inline{
+justify-content: center;
+}
+.Subscribe .container .form-inline button{
+    text-transform: uppercase;
+    background-color: #303030;
+    color: #ffffff;
+    border: #303030;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    width: 222px;
+    height: 65px;
+    transition: 0.3s;
+    outline: none;
+}
+.Subscribe .container .form-inline button:hover{
+    background-color: #ffffff;
+    color: #303030;
+}
+.Subscribe .container .form-inline input{
+height: 63px;
+width: 548px;
+}
+
+/* Footer Section */
+
+footer{
+background-color: #303030;
+padding-top: 120px;
+padding-bottom: 89px;
+}
+footer .container{
+padding-right: 0;
+max-width: 1400px;
+}
+footer .container .row h5{
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 33.33px;
+margin-bottom:39px;
+text-transform: uppercase;
+}
+footer .container .row .col-lg-5 p{
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 25px;
+margin-bottom: 37px;
+margin-right: 72px;
+}
+footer .container .row .col-lg-5 .icons{
+height: 44px;
+width: 44px;
+background-color: #ffffff;
+color: #303030;
+border: #ffffff;
+border-radius: 50%;
+margin-right: 16px;
+padding: 11px 16px;
+cursor: pointer;
+}
+footer .container .row .col-lg-2 ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer .container .row .col-lg-2 ul li a{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+}
+footer .container .row .col-lg-3 ul{
+list-style: none;
+}
+footer .container .row .col-lg-3 ul li a{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+}
+footer .container .row .col-lg-2 ul li a:hover{
+    color: gray;
+}
+footer .container .row .col-lg-3 ul li a:hover{
+    color: gray;
+}
+
+/* Responsiveness */
+
+/* For small devices .i.e. mobile devices*/
+
+@media (min-width:320px) and (max-width:767.98px){
+    
+    /* Header */
+
+    .navbar{
+        padding: 15px;
+    }
+    .navbar-dark .navbar-brand{
+        margin-right: auto;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 20px;
+    }
+    .navbar i{
+        height: 20px !important;
+        width: 20px !important;
+        margin-top: 10px;
+    } 
+
+    /* Main Section */
+
+    .Main{
+        background-position: center;
+    }
+    .Main .container{
+        margin-left: auto;
+        text-align: center;
+        max-width: 767px;
+    }
+    .Main .container h1{
+        font-size: 80px;
+    }
+    .Main .container p{
+        font-size: 25px;
+    }
+    .Main .container button{
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    /* Dance Tour Section */
+
+    .Dance_Tour .container p{
+        font-size: 25px;
+    }
+    .Dance_Tour .container p:first-child{
+        margin-bottom: 15px;
+    }
+    .Dance_Tour .container .row .col .card{
+        margin-bottom: 20px;
+    }
+
+    /* Pricing Section */
+
+    .Pricing .container p{
+        font-size: 25px;
+    }
+    .Pricing .container p:first-child{
+        margin-bottom: 15px;
+    }
+    .Pricing .container .row .col .card img{
+        height: fit-content;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .Pricing .container .row .col .card{
+        margin-bottom: 20px;
+    }
+    .Pricing .container .row .col .card .card-body button{
+        padding: 20px;
+    }
+
+    /* Read More Section */
+
+    .Read_More{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .Read_More .row{
+        display: block;
+    }
+    .Read_More .row .col img{
+        width: -webkit-fill-available;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: block;
+        margin-top: 30px !important;
+    }
+    .Read_More .row .col h4{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 70px !important;
+        margin-bottom: 50px !important;
+        text-align: center;
+    }
+    .Read_More .row .col p{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 30px !important;
+        text-align: center;
+        font-size: 25px;
+    }
+    .Read_More .row .col button{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+        font-size: 25px;
+        padding: 20px;
+        margin-bottom: 30px;
+
+    }
+
+    /* Statistics Section */
+
+    .Statistics{
+        padding-top: 90px !important;
+        padding-bottom: 0 !important;
+    }
+    .Statistics .container h3{
+        font-size: 66px;
+        margin-top: 0 !important;
+    }
+    .Statistics .container p{
+        font-size: 25px;
+    }
+    .Statistics .container p:first-child{
+        margin-bottom: 15px;
+    }
+    .Statistics .container p:last-child{
+        margin-bottom: 140px;
+    }
+    .Statistics .container .row .col h4{
+        font-size: 66px;
+    }
+    .Statistics .container .row .col h5{
+        font-size: 31px;
+        margin-bottom: 30px;
+    }
+
+    /* Herbert Simon Section */
+
+    .Herbert_Simon{
+        background-position: center;
+        padding-top: 210px;
+    }
+    .Herbert_Simon .container p{
+        font-size: 30px;
+    }
+    .Herbert_Simon .container h5{
+        font-size: 50px;
+    }
+
+    /* Subscribe Section */
+
+    .Subscribe .container h4{
+        font-size: 72px;
+    }
+    .Subscribe .container p{
+        font-size: 25px;
+    }
+    .Subscribe .container .form-inline input{
+        margin-bottom: 10px;
+    }
+
+    /* Footer Section */
+
+    footer .container{
+        margin-left: 0;
+        text-align: center;
+        padding-right: 15px;
+    }
+    footer .container .row{
+        margin-right: 0;
+    }
+    footer .container .row .col-lg-5{
+        padding-bottom: 20px;
+    }
+    footer .container .row .col-lg-5 p{
+        margin-right: 0;
+    }
+    footer .container .row .col-lg-3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    footer .container .row .col-lg-3 ul{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    footer .container .row .col-lg-2{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    footer .container .row .col-lg-2 ul{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+
+/* For medium devices .i.e. tablets */
+
+@media (min-width:768px) and (max-width:991.98px){
+   
+    /* Header Section */
+   
+    .navbar{
+        padding: 20px 50px 20px 50px;
+    }
+    .navbar-dark .navbar-brand{
+        margin-bottom: 10px;
+    }
+    .navbar i{
+        margin-top: 10px;
+    }
+
+    /* Main Section */
+
+    .Main{
+        background-position: center;
+    }
+    .Main .container{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    /* Pricing */
+
+    .Pricing{
+        padding: 100px 0;
+    }
+    .Pricing .container .row .col{
+        padding-bottom: 20px;
+    }
+
+    /* Read More */
+
+    .Read_More{
+        padding: 50px 0;
+    }
+    .Read_More .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Read_More .row .col img{
+        width: -webkit-fill-available;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .Read_More .row .col h4{
+        text-align: center;
+        margin-top: 70px !important;
+        margin-bottom: 60px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .Read_More .row .col p{
+        text-align: center;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .Read_More .row .col button{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    /* Statistics Section */
+
+    .Statistics{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    .Statistics .container h3{
+        margin-top: 0 !important;
+    }
+    .Statistics .container .row .col h5{
+        font-size: 27px !important;
+    }
+
+    /* Herbert Simon Sectiob */
+
+    .Herbert_Simon{
+        background-position: center;
+        padding-top: 150px !important;
+        padding-bottom: 150px !important;
+    }
+
+    /* Subscribe Section */
+
+    .Subscribe{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    .Subscribe .container .form-inline input{
+        margin-bottom: 10px !important;
+    }
+
+    /* Footer Section */
+
+    footer{
+        padding-bottom: 0 !important;
+    }
+    footer .container{
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    footer .container .row h5{
+        text-align: center;
+    }
+    footer .container .row .col-lg-5{
+        padding-bottom: 40px !important;
+    }
+    footer .container .row .col-lg-5 p{
+        text-align: center;
+        margin-right: 0 !important;
+    }
+    footer .container .row .col-lg-5 a:first-child{
+        margin-left: 270px !important;
+    }
+    footer .container .row .col-lg-3{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 40px !important;
+    }
+    footer .container .row .col-lg-3 ul{
+        text-align: center;
+        padding-left: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    footer .container .row .col-lg-2{
+        padding-bottom: 40px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    footer .container .row .col-lg-2 ul{
+        text-align: center;
+        margin-bottom: 0 !important;
+        padding-left: 0 !important;
+    }
+    footer .container .row .col-lg-5 a:first-child{
+        margin-left: 265px !important;
+    }
+}
+
+/* For large devices .i.e. small laptops and desktops */
+
+@media (min-width:992px) and (max-width:1199.98px){
+
+    /* Header Section */
+
+    .navbar{
+        padding: 20px 50px 20px 50px;
+    }
+    .navbar-dark .navbar-brand{
+        margin-right: 100px !important;
+    }
+
+    /* Main Section */
+
+    .Main{
+        background-position: center;
+    }
+
+    /* Dance Tour Section */
+
+    .Dance_Tour{
+        padding-top: 100px !important;
+    }
+
+    /* Pricing Section */
+
+    .Pricing{
+        padding-top: 100px !important;
+    }
+    .Pricing .container .row .col-lg-4 .card .card-body button{
+        padding-top: 20px !important;
+        padding-right: 50px !important;
+        padding-bottom: 20px !important;
+        padding-left: 50px !important;
+    }
+
+    /* Read More Section */
+
+    .Read_More{
+        padding: 50px 0;
+    }
+    .Read_More .row:first-child{
+        padding-bottom: 100px !important;
+    }
+    .Read_More .row .col img{
+        width: 550px !important;
+        margin-left: 0 !important;
+    }
+    .Read_More .row .col h4{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 100px !important;
+        text-align: center;
+    }
+    .Read_More .row .col p{
+        text-align: center;
+        margin-right: 0 !important;
+        margin-bottom: 80px !important;
+        margin-left: 25px !important;
+    }
+    .Read_More .row .col button{
+        margin-left: 70px !important;
+    }
+
+    /* Statistics Section */
+
+    .Statistics{
+        padding-bottom: 100px !important;
+    }
+    .Statistics .container .row .col h5{
+        font-size: 37px !important;
+    }
+
+    /* Herbert Simon Section */
+
+    .Herbert_Simon{
+        background-position: center;
+        padding-top: 300px !important;
+        padding-bottom: 300px !important;
+    }
+
+    /* Footer Section */
+
+    footer .container{
+        margin-left: 0 !important;
+    }
+    footer .container .row{
+        margin-right: 0 !important;
+    }
+    footer .container .row .col-lg-3{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    footer .container .row .col-lg-3 ul{
+        padding-left: 0 !important;
+    }
+    footer .container .row .col-lg-2 ul{
+        padding-left: 0 !important;
+    }
+}
+
+/* For extra large devices .i.e. large laptops and desktops */
+
+@media (min-width:1200px) and (max-width:1439.98px){
+
+    /* Footer Section */
+    
+    footer .container .row{
+        margin-right: 0 !important;
+    }
+    footer .container .row .col-lg-3{
+        padding-left: 0 !important;
+    }
+    footer .container .row .col-lg-2{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
