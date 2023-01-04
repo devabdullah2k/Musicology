@@ -122,29 +122,29 @@ margin-bottom: 59px;
 text-transform: uppercase;  
 }
 .Pricing .container p{
-font-family: 'Montserrat' , sans-serif;
-font-weight: 400;
-font-size: 29.72px;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    font-size: 29.72px;
 }
 .Pricing .container .row .col-lg-4 .card:hover{
     transition: all 0.5s ease-out;
     transform: scale(1.05);
 }
 .Pricing .container .row .col-lg-4 .card .card-img-top{
-width: 112px;
-height: 132px;
-margin: 64px auto 59px auto;
+    width: 112px;
+    height: 132px;
+    margin: 64px auto 59px auto;
 }
 .Pricing .container .row .col-lg-4 .card .card-body h3{
-font-family: 'Oswald', sans-serif;
-font-weight: 600;
-font-size: 36.95px;
-text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 36.95px;
+    text-transform: uppercase;
 }
 .Pricing .container .row .col-lg-4 .card .card-body p{
-font-family: 'Montserrat' , sans-serif;
-font-weight: 400;
-font-size: 22.17px;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    font-size: 22.17px;
 }
 .Pricing .container .row .col-lg-4 .card .card-body button{
     font-family: 'Oswald', sans-serif;
@@ -166,26 +166,26 @@ font-size: 22.17px;
 /* Read More Section */
 
 .Read_More .row{
-margin-right: 0;
-margin-left: 0 !important;
+    margin-right: 0;
+    margin-left: 0 !important;
 }
 .Read_More .row:first-child{
     margin-bottom: 10px;
 }
 .Read_More .row .col{
-padding-right: 0;
-padding-left: 0 !important;
+    padding-right: 0;
+    padding-left: 0 !important;
 }
 .Read_More .row .col h4{
-font-family: 'Oswald', sans-serif;
-font-weight: 700;
-font-size: 75px;
-text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    text-transform: uppercase;
 }
 .Read_More .row .col p{
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-font-size: 29.72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 29.72px;
 }
 .Read_More .row .col button{
     padding: 18px 103px 22px 101px;
@@ -208,90 +208,90 @@ font-size: 29.72px;
 /* Statistics Section */
 
 .Statistics{
-background-color: #303030;
-padding-top: 207px;
-padding-bottom: 262px;
+    background-color: #303030;
+    padding-top: 207px;
+    padding-bottom: 262px;
 }
 .Statistics .container h3{
-font-family: 'Oswald', sans-serif;
-font-weight: 700;
-font-size: 75px;
-margin-bottom: 59px;
-text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    margin-bottom: 59px;
+    text-transform: uppercase;
 }
 .Statistics .container p{
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-font-size: 29.72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 29.72px;
 }
 .Statistics .container .row .col h4{
-font-family: 'Oswald', sans-serif;
-font-weight: 700;
-font-size: 66.84px;
-margin-bottom: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 66.84px;
+    margin-bottom: 35px;
 }
 .Statistics .container .row .col h5{
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-font-size: 41.67px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 41.67px;
 }
 
 /* HERBERT SIMON Section */
 
 .Herbert_Simon{
-background-image: url('../images/simon.png');
-background-repeat: no-repeat;
-background-size: cover;
-padding-top: 338px;
-padding-bottom: 345px;
+    background-image: url('../images/simon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 338px;
+    padding-bottom: 345px;
 }
 .Herbert_Simon .container p{
-font-family: 'Nunito', sans-serif;
-font-weight: 400;
-font-size: 50px;
-margin-bottom: 78px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 78px;
 }
 .Herbert_Simon .container h5{
-font-family: 'Oswald', sans-serif;
-font-weight: 700;
-font-size: 58.33px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 58.33px;
 }
 .img_overlay{
-position: relative;
-z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 .img_overlay::before{
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: #cb5016;
-opacity: 0.5;
-z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cb5016;
+    opacity: 0.5;
+    z-index: -1;
 }
 
 /* Subscribe Section */
 
 .Subscribe{
-background-color: #e8631c;
-padding-top: 131px;
-padding-bottom: 161px;
+    background-color: #e8631c;
+    padding-top: 131px;
+    padding-bottom: 161px;
 }
 .Subscribe .container h4{
-font-family: 'Oswald', sans-serif;
-font-weight: 700;
-font-size: 75px;
-margin-bottom: 59px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    margin-bottom: 59px;
 }
 .Subscribe .container p{
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-font-size: 29.72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 29.72px;
 }
 .Subscribe .container .form-inline{
-justify-content: center;
+    justify-content: center;
 }
 .Subscribe .container .form-inline button{
     text-transform: uppercase;
@@ -312,45 +312,45 @@ justify-content: center;
     color: #303030;
 }
 .Subscribe .container .form-inline input{
-height: 63px;
-width: 548px;
+    height: 63px;
+    width: 548px;
 }
 
 /* Footer Section */
 
 footer{
-background-color: #303030;
-padding-top: 120px;
-padding-bottom: 89px;
+    background-color: #303030;
+    padding-top: 120px;
+    padding-bottom: 89px;
 }
 footer .container{
-padding-right: 0;
-max-width: 1400px;
+    padding-right: 0;
+    max-width: 1400px;
 }
 footer .container .row h5{
-font-family: 'Oswald', sans-serif;
-font-weight: 400;
-font-size: 33.33px;
-margin-bottom:39px;
-text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 33.33px;
+    margin-bottom:39px;
+    text-transform: uppercase;
 }
 footer .container .row .col-lg-5 p{
-font-family: 'Montserrat', sans-serif;
-font-weight: 400;
-font-size: 25px;
-margin-bottom: 37px;
-margin-right: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 37px;
+    margin-right: 72px;
 }
 footer .container .row .col-lg-5 .icons{
-height: 44px;
-width: 44px;
-background-color: #ffffff;
-color: #303030;
-border: #ffffff;
-border-radius: 50%;
-margin-right: 16px;
-padding: 11px 16px;
-cursor: pointer;
+    height: 44px;
+    width: 44px;
+    background-color: #ffffff;
+    color: #303030;
+    border: #ffffff;
+    border-radius: 50%;
+    margin-right: 16px;
+    padding: 11px 16px;
+    cursor: pointer;
 }
 footer .container .row .col-lg-2 ul{
     list-style: none;
@@ -364,7 +364,7 @@ footer .container .row .col-lg-2 ul li a{
     text-decoration: none;
 }
 footer .container .row .col-lg-3 ul{
-list-style: none;
+    list-style: none;
 }
 footer .container .row .col-lg-3 ul li a{
     color: #ffffff;
